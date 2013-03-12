@@ -6,5 +6,5 @@ Shell scripts lists and delete all inactive remote branches by using "--since" s
     sh git-rm-remote-branch.sh inactive-branch
 
 # Note
-    - NO TEST
-    - We only print out the git push command (no execute it), so it doesn't hurt.
+ - NO TEST
+ - We only print out the git push command (no execute it), so it doesn't hurt.
