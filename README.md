@@ -1,8 +1,8 @@
 # Description
-Shell scripts lists and delete all unactive remote branches by using "--since" syntax (see git log) 
+Shell scripts lists and delete all inactive remote branches by using "--since" syntax (see git log)
 
 # Usage
-    sh git-list-inactive-remote-branch.sh > inactive-branch
+    sh git-list-inactive-remote-branch.sh "30 days ago" > inactive-branch
     sh git-rm-remote-branch.sh inactive-branch
 
 # Note
